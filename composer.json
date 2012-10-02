@@ -1,0 +1,23 @@
+{
+    "name": "publero/geo-coder",
+    "type": "library",
+    "version": "0.1.0-dev",
+    "description": "Publero GeoCoder Component",
+    "keywords": ["geocoding"],
+    "homepage": "https://github.com/Publero/geo-coder",
+    "authors": [
+        {
+            "name": "Tomáš Pecsérke",
+            "email": "tomas.pecserke@publero.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "kriswallsmith/buzz": ">= 0.6"
+    },
+    "autoload": {
+        "psr-0": { "Publero\\Component\\GeoCoder": "" }
+    },
+    "target-dir": "Publero/Component/GeoCoder",
+    "minimum-stability": "dev"
+}
